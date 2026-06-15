@@ -21,10 +21,10 @@ export default function ContactPage() {
                 <div className="mt-8 rounded-2xl bg-white p-6 shadow-sm">
                     <p className="text-sm font-semibold text-[#2f261f]">Customer Support</p>
                     <a
-                        href="mailto:maydayblue443@163.com"
+                        href="mailto:support@pukupig.com"
                         className="mt-2 inline-block text-[#a4583f]"
                     >
-                        maydayblue443@163.com
+                        support@pukupig.com
                     </a>
                 </div>
             </section>

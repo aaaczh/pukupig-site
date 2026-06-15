@@ -6,7 +6,7 @@ export default function ReturnRefundPolicyPage() {
                 <p className="mt-6 leading-8 text-[#5f5147]">
                     If your purchase was completed through Amazon, please follow Amazon&#39;s
                     return and refund process. For product-related questions, you may
-                    contact us at maydayblue443@163.com.
+                    contact us at support@pukupig.com.
                 </p>
             </section>
         </main>
