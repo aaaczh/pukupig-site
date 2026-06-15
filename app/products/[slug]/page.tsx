@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getProductBySlug, products } from "@/data/products";
 import Image from "next/image";
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
     return products.map((product) => ({
