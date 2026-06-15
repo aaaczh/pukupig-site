@@ -1,4 +1,17 @@
-export const products = [
+export type Product = {
+    slug: string;
+    name: string;
+    category: string;
+    size: string;
+    color: string;
+    material: string;
+    description: string;
+    image: string;
+    amazonUrl: string;
+    highlights: string[];
+};
+
+export const products: Product[] = [
     {
         slug: "patriotic-bunting-banner",
         name: "PUKUPIG Patriotic Bunting Ribbon Banner",
@@ -8,7 +21,13 @@ export const products = [
         material: "Fabric, lace, satin ribbons, pom-poms",
         description:
             "A layered patriotic wall hanging designed for front doors, covered porches, entryways, and America's 250th celebration decor.",
+        image: "/images/patriotic-bunting-banner.jpg",
         amazonUrl: "https://www.amazon.com/dp/your-asin",
+        highlights: [
+            "Layered red, white, and blue patriotic styling",
+            "Designed for front doors, covered porches, and wall displays",
+            "Suitable for 4th of July, Memorial Day, and America's 250th decor",
+        ],
     },
     {
         slug: "christmas-tree-skirt",
@@ -19,6 +38,16 @@ export const products = [
         material: "Knitted fabric",
         description:
             "A cozy Christmas tree skirt designed for warm holiday living rooms, family gift displays, and classic seasonal styling.",
-        amazonUrl: "https://www.amazon.com/dp/your-asin",
+        image: "/images/christmas-tree-skirt.jpg",
+        amazonUrl: "https://www.amazon.com/PUKUPIG-Knitted-Christmas-Braided-Decorations/dp/B0FGY64JF8?ref_=ast_sto_dp",
+        highlights: [
+            "Cozy knitted look for Christmas tree displays",
+            "Designed for gift setups and holiday living rooms",
+            "Available in classic seasonal colors",
+        ],
     },
 ];
+
+export function getProductBySlug(slug: string) {
+    return products.find((product) => product.slug === slug);
+}
