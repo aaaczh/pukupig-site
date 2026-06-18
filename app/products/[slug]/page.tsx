@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getProductBySlug, products } from "@/data/products";
 import Image from "next/image";
+import Link from "next/link";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
@@ -68,6 +69,14 @@ export default async function ProductDetailPage({
                     >
                         Buy on Amazon
                     </a>
+
+                    <Link
+                        href="/cart"
+                        className="rounded-full border border-[#2f261f] px-6 py-3 text-sm font-semibold text-[#2f261f]"
+                    >
+                        Add to cart
+                    </Link>
+
                 </div>
             </section>
         </main>
