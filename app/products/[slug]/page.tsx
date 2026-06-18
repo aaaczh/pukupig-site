@@ -72,7 +72,7 @@ export default async function ProductDetailPage({
 
                     <Link
                         href="/cart"
-                        className="rounded-full border border-[#2f261f] px-6 py-3 text-sm font-semibold text-[#2f261f]"
+                        className="mt-10 inline-block rounded-full border border-[#2f261f] px-6 py-3 text-sm font-semibold text-[#2f261f]"
                     >
                         Add to cart
                     </Link>
