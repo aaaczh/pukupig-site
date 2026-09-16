@@ -122,37 +122,37 @@ export const products: Product[] = [
     },
     {
         slug: "red-dotted-knit-tree-skirt-30",
-        name: "PUKUPIG 30 Inch Red Dotted Knit Christmas Tree Skirt",
+        name: "PUKUPIG 30 Inch Red Cable Knit Christmas Tree Skirt",
         category: "Christmas Tree Skirt",
         size: "30 in",
         color: "Christmas Red",
         material: "Soft knitted fabric",
         description:
-            "A 30-inch red knitted Christmas tree skirt featuring a decorative dotted knit pattern and braided detailing. The compact size is ideal for smaller trees and cozy holiday displays.",
+            "A 30-inch red knitted Christmas tree skirt featuring a decorative cable knit pattern and braided detailing. The compact size is ideal for smaller trees and cozy holiday displays.",
         image: "/images/tree-skirt-dotted-knit-30-red.png",
         amazonUrl: "https://www.amazon.com/dp/B0FGW8CZ29",
         highlights: [
             "30-inch size for smaller Christmas trees",
             "Classic Christmas red knitted design",
-            "Decorative dotted knit texture",
+            "Decorative cable knit texture",
             "Braided detailing adds a handcrafted holiday look"
         ]
     },
     {
         slug: "red-dotted-knit-tree-skirt-40",
-        name: "PUKUPIG 40 Inch Red Dotted Knit Christmas Tree Skirt",
+        name: "PUKUPIG 40 Inch Red Cable Knit Christmas Tree Skirt",
         category: "Christmas Tree Skirt",
         size: "40 in",
         color: "Christmas Red",
         material: "Soft knitted fabric",
         description:
-            "A 40-inch red knitted Christmas tree skirt with decorative dotted knit texture and braided detailing. Its larger coverage works well with fuller family Christmas trees and traditional red-and-gold holiday decor.",
+            "A 40-inch red knitted Christmas tree skirt with decorative cable knit texture and braided detailing. Its larger coverage works well with fuller family Christmas trees and traditional red-and-gold holiday decor.",
         image: "/images/tree-skirt-dotted-knit-40-red.png",
         amazonUrl: "https://www.amazon.com/dp/B0FGW89177",
         highlights: [
             "40-inch size for fuller Christmas tree setups",
             "Classic Christmas red knitted appearance",
-            "Decorative dotted knit pattern",
+            "Decorative cable knit pattern",
             "Pairs naturally with traditional holiday ornaments and gifts"
         ]
     },
@@ -194,37 +194,37 @@ export const products: Product[] = [
     },
     {
         slug: "cream-white-dotted-knit-tree-skirt-30",
-        name: "PUKUPIG 30 Inch Cream White Dotted Knit Christmas Tree Skirt",
+        name: "PUKUPIG 30 Inch Cream White Cable Knit Christmas Tree Skirt",
         category: "Christmas Tree Skirt",
         size: "30 in",
         color: "Cream White",
         material: "Soft knitted fabric",
         description:
-            "A 30-inch cream white knitted Christmas tree skirt with decorative dotted knit texture and braided detailing. Its warm ivory-white appearance works naturally with farmhouse, neutral, and classic Christmas interiors.",
+            "A 30-inch cream white knitted Christmas tree skirt with decorative cable knit texture and braided detailing. Its warm ivory-white appearance works naturally with farmhouse, neutral, and classic Christmas interiors.",
         image: "/images/tree-skirt-dotted-knit-30-cream-white.png",
         amazonUrl: "https://www.amazon.com/dp/B0FGW8VH42",
         highlights: [
             "30-inch size for smaller Christmas tree displays",
             "Warm cream white knitted appearance",
-            "Decorative dotted knit texture",
+            "Decorative cable knit texture",
             "Pairs easily with neutral, red, gold, and natural holiday decor"
         ]
     },
     {
         slug: "cream-white-dotted-knit-tree-skirt-40",
-        name: "PUKUPIG 40 Inch Cream White Dotted Knit Christmas Tree Skirt",
+        name: "PUKUPIG 40 Inch Cream White Cable Knit Christmas Tree Skirt",
         category: "Christmas Tree Skirt",
         size: "40 in",
         color: "Cream White",
         material: "Soft knitted fabric",
         description:
-            "A 40-inch cream white knitted Christmas tree skirt featuring decorative dotted knit texture and braided detailing. The larger size gives family Christmas trees a soft, warm, and handcrafted-looking base.",
+            "A 40-inch cream white knitted Christmas tree skirt featuring decorative cable knit texture and braided detailing. The larger size gives family Christmas trees a soft, warm, and handcrafted-looking base.",
         image: "/images/tree-skirt-dotted-knit-40-cream-white.png",
         amazonUrl: "https://www.amazon.com/dp/B0FGW7DK98",
         highlights: [
             "40-inch size for medium Christmas tree displays",
             "Warm cream white color",
-            "Decorative dotted knit pattern",
+            "Decorative cable knit pattern",
             "Soft neutral styling for cozy and farmhouse Christmas interiors"
         ]
     },
